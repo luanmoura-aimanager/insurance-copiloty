@@ -7,3 +7,4 @@ __pycache__/
 py311env/
 .venv/
 .DS_Store
+.claude/

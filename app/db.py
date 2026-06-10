@@ -1,5 +1,8 @@
 import os
+from dotenv import load_dotenv
 from sqlalchemy.ext.asyncio import create_async_engine, async_sessionmaker, AsyncSession
+
+load_dotenv() 
 
 DATABASE_URL = os.environ["DATABASE_URL"]          # ex.: postgresql+asyncpg://insurance:insurance@localhost:5432/insurance
 
